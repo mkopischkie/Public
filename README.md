@@ -1,6 +1,12 @@
-# Public
-This repository showcases a selection of coding projects I worked on during my undergraduate and graduate studies. I hold a BS in Biophysics and an MS in Data Science. Most projects have been developed in Python, with some in R, and I will continue to update this repository with independent work.
+# Melina Kopischkie — Portfolio
 
-During my graduate program, I took courses in data mining, statistics, [machine learning](https://mkopischkie.github.io/), big data architecture, deep learning, design & analysis of algorithms, neurosymbolic topics in AI, and applied deep learning. I graduated in December 2025 and have been working as a Data Scientist on the AI team at Xcel Energy since May 2025.
+**AI Engineer · Data Scientist.** This repository hosts my portfolio site and a selection of coding projects from my undergraduate and graduate studies, plus post-grad AI work. I hold a BS in Biophysics (minor in Mathematics) and an MS in Data Science. Most projects are in Python, with some in R.
 
-Check out my [portfolio](https://mkopischkie.github.io/)
+I'm a Data Scientist on the AI team at **Xcel Energy** and Lead Developer at **Atlas Thyroid**, a RAG-powered chatbot that answers thyroid and parathyroid questions from physician-vetted articles (no patient data stored). I build multi-agent systems, RAG pipelines, and ML.
+
+➡️ **Live site:** https://mkopischkie.github.io/Public/
+
+Featured project: [AI Research Agent](https://github.com/mkopischkie/agentic-research-assistant)
+
+## Running / editing the site
+The site is static — `index.html`, `style.css`, `script.js`. Open `index.html` locally, or push and serve via **GitHub Pages** (Settings → Pages → Deploy from branch → `main` / root). The résumé buttons link to `Melina-Kopischkie-Resume.pdf` in the repo root.

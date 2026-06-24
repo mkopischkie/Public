@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melina Kopischkie | AI Engineer</title>
+  <meta name="description" content="Melina Kopischkie, AI Engineer and Data Scientist. Multi-agent systems, RAG, and ML. BS Biophysics, MS Data Science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav-brand">MK</a>
+    <nav class="nav-links">
+      <a href="#featured">Featured</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/mkopischkie" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/melina-kopischkie-453ba6229/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="Melina-Kopischkie-Resume.pdf" class="nav-resume" target="_blank" rel="noopener">Résumé</a>
+    </nav>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">AI Engineer &nbsp;·&nbsp; Data Scientist</p>
+      <h1 class="hero-name">Melina Kopischkie</h1>
+      <p class="hero-lede">
+        Building production AI systems across <strong>multi-agent workflows</strong>,
+        <strong>RAG pipelines</strong>, and <strong>ML</strong>. Data Scientist on the AI team at
+        <strong>Xcel Energy</strong> and Lead Developer at <strong>Atlas Thyroid</strong>, with a
+        BS in Biophysics and an MS in Data Science.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/mkopischkie" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/melina-kopischkie-453ba6229/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="mailto:mkopischkie@gmail.com">Email</a>
+        <a class="btn btn-ghost" href="Melina-Kopischkie-Resume.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+      </div>
+      <div class="hero-tags">
+        <span>Python</span><span>LangGraph</span><span>RAG / LLMs</span>
+        <span>Multi-agent</span><span>PyTorch</span><span>SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED ============ -->
+  <section class="section" id="featured">
+    <div class="section-head">
+      <h2>Featured Work</h2>
+    </div>
+    <div class="featured-grid">
+      <article class="feature-card">
+        <div class="feature-badge">Lead Developer · Atlas Thyroid</div>
+        <h3>Atlas Thyroid</h3>
+        <p>
+          Lead developer of a <strong>RAG pipeline</strong> that uses vector retrieval and embeddings
+          over a library of <strong>physician-vetted clinical articles</strong>, grounding a user-facing
+          chatbot's answers on thyroid and parathyroid conditions in cited sources. Work also includes
+          optimizing the production multi-agent backend to cut latency and inference cost. Built
+          privacy-first, with <strong>no patient data stored</strong>.
+        </p>
+        <div class="feature-stack">
+          <span>RAG</span><span>Embeddings</span><span>Weaviate</span><span>LangGraph</span><span>Python</span>
+        </div>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-badge">Open Source · GitHub</div>
+        <h3>AI Research Agent</h3>
+        <p>
+          An end-to-end <strong>multimodal RAG pipeline</strong> that lets researchers upload papers and
+          supplementary materials, extracting text, figures, and tables. A
+          <strong>LangGraph multi-agent system</strong> handles summarization, cited Q&amp;A, cross-paper
+          comparison, and research-gap identification.
+        </p>
+        <div class="feature-stack">
+          <span>LangGraph</span><span>Multi-agent</span><span>RAG</span><span>Python</span>
+        </div>
+        <a class="feature-link" href="https://github.com/mkopischkie/agentic-research-assistant" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS (TABS) ============ -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab is-active" data-tab="postgrad" role="tab" aria-selected="true">Post-Grad &amp; AI</button>
+      <button class="tab" data-tab="grad" role="tab" aria-selected="false">Graduate</button>
+      <button class="tab" data-tab="undergrad" role="tab" aria-selected="false">Undergraduate</button>
+    </div>
+
+    <!-- POST-GRAD -->
+    <div class="tab-panel is-active" id="panel-postgrad" role="tabpanel">
+      <div class="card-grid">
+        <a class="card" href="https://github.com/mkopischkie/agentic-research-assistant" target="_blank" rel="noopener">
+          <span class="card-tag">Multi-agent · RAG</span>
+          <h4>AI Research Agent</h4>
+          <p>Multimodal RAG over uploaded papers with a LangGraph multi-agent system for summarization, cited Q&amp;A, and research-gap analysis.</p>
+          <span class="card-link">GitHub →</span>
+        </a>
+        <div class="card">
+          <span class="card-tag">RAG · Lead Developer</span>
+          <h4>Atlas Thyroid</h4>
+          <p>RAG-powered chatbot answering thyroid/parathyroid questions from physician-vetted articles. No patient data stored.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRAD -->
+    <div class="tab-panel" id="panel-grad" role="tabpanel">
+      <p class="panel-intro">MS in Data Science (CU Boulder), covering ML, deep learning, data mining, and statistics in Python &amp; R.</p>
+      <div class="card-grid">
+        <a class="card" href="https://github.com/mkopischkie/Public/tree/main/Grad%20School/Python/Machine%20Learning%20Project" target="_blank" rel="noopener">
+          <span class="card-tag">Capstone · ML</span>
+          <h4>Disorder Prediction Pipeline</h4>
+          <p>End-to-end ML: API data gathering, cleaning, and many classifiers (Random Forest, XGBoost, SVM, NB), plus clustering and association rule mining.</p>
+          <span class="card-link">GitHub →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/tree/main/Grad%20School/Python/Neural%20Nets" target="_blank" rel="noopener">
+          <span class="card-tag">Deep Learning</span>
+          <h4>Neural Networks</h4>
+          <p>Building, training, and evaluating neural nets, including a full final project from data gathering to modeling.</p>
+          <span class="card-link">GitHub →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/tree/main/Grad%20School/Python" target="_blank" rel="noopener">
+          <span class="card-tag">Data Mining</span>
+          <h4>Data Mining</h4>
+          <p>Web scraping, PCA, association rule mining (Apriori &amp; FP-Growth), visualization, and ML modeling.</p>
+          <span class="card-link">GitHub →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/tree/main/Grad%20School/R" target="_blank" rel="noopener">
+          <span class="card-tag">Statistics · R</span>
+          <h4>Statistical Modeling in R</h4>
+          <p>Bootstrapping, fraud detection, MLEs &amp; confidence intervals, regression (SLR/MLR/GLM/GAM), and EDA.</p>
+          <span class="card-link">GitHub →</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- UNDERGRAD -->
+    <div class="tab-panel" id="panel-undergrad" role="tabpanel">
+      <p class="panel-intro">BS in Biophysics, minor in Mathematics (TCU), focused on computational physics and modeling.</p>
+      <div class="card-grid">
+        <a class="card" href="https://github.com/mkopischkie/Public/blob/main/Undergrad/Computational%20Physics%20-%20Nbody%20Problem.ipynb" target="_blank" rel="noopener">
+          <span class="card-tag">Computational Physics</span>
+          <h4>N-Body Problem</h4>
+          <p>Simulating gravitational dynamics of interacting bodies via numerical integration.</p>
+          <span class="card-link">Notebook →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/blob/main/Undergrad/Computational%20Physics%20-%20Blackbody%20Radiation.ipynb" target="_blank" rel="noopener">
+          <span class="card-tag">Computational Physics</span>
+          <h4>Blackbody Radiation</h4>
+          <p>Modeling spectral radiance and the physics of thermal emission.</p>
+          <span class="card-link">Notebook →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/tree/main/Undergrad" target="_blank" rel="noopener">
+          <span class="card-tag">Thermal Physics</span>
+          <h4>Engine Modeling</h4>
+          <p>Engine efficiency, entropy, PV-diagram analysis, and isochoric vs. isobaric processes.</p>
+          <span class="card-link">Notebooks →</span>
+        </a>
+        <a class="card" href="https://github.com/mkopischkie/Public/blob/main/Undergrad/Biophysics%20Research.ipynb" target="_blank" rel="noopener">
+          <span class="card-tag">Biophysics</span>
+          <h4>Biophysics Research</h4>
+          <p>Computational analysis applied to biophysical systems.</p>
+          <span class="card-link">Notebook →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
