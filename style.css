@@ -76,7 +76,28 @@ a { color: inherit; text-decoration: none; }
     radial-gradient(1200px 500px at 80% -10%, var(--accent-soft), transparent 60%),
     radial-gradient(900px 400px at 0% 10%, #faf0ff, transparent 55%);
 }
-.hero-inner { max-width: 880px; margin: 0 auto; }
+.hero-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: clamp(32px, 5vw, 64px);
+}
+.hero-text { flex: 1; min-width: 0; }
+.hero-photo { flex-shrink: 0; }
+.hero-photo img {
+  width: clamp(160px, 22vw, 240px);
+  height: clamp(160px, 22vw, 240px);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: var(--shadow-lg);
+}
+@media (max-width: 720px) {
+  .hero-inner { flex-direction: column-reverse; text-align: center; }
+  .hero-actions, .hero-tags { justify-content: center; }
+  .hero-lede { margin-left: auto; margin-right: auto; }
+}
 .hero-eyebrow {
   font-size: .82rem;
   font-weight: 600;
